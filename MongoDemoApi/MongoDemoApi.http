@@ -1,0 +1,10 @@
+@MongoDemoApi_HostAddress = http://localhost:5008
+@MongoDemoApi_Https = https://localhost:44386
+
+GET {{MongoDemoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MongoDemoApi_Https}}/api/products
+Accept: application/json
