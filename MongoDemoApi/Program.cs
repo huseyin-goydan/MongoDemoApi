@@ -11,6 +11,7 @@ builder.Services.Configure<MongoDatabaseSettings>(
 // ProductService servisini ekle
 builder.Services.AddSingleton<ProductService>();
 
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
